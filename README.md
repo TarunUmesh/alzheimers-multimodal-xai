@@ -227,3 +227,5 @@ tests/smoke_test.py           installation check
 5. Fraser K. C., Meltzer J. A., Rudzicz F. (2016). Linguistic features identify Alzheimer's disease in narrative speech. Journal of Alzheimer's Disease, 49(2), 407–422.
 6. World Health Organization (2019). Risk reduction of cognitive decline and dementia: WHO guidelines.
 7. Livingston G. et al. (2024). Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission. The Lancet, 404, 572–628.
+#   a l z h e i m e r s - m u l t i m o d a l - x a i  
+ 
