@@ -1,0 +1,9 @@
+The MRI images go in this folder, one sub-folder per class:
+
+    datasets/mri/NonDemented/*.jpg
+    datasets/mri/VeryMildDemented/*.jpg
+    datasets/mri/MildDemented/*.jpg
+    datasets/mri/ModerateDemented/*.jpg
+
+Fill it automatically with:   python scripts/download_datasets.py
+See datasets/README.md for the manual route.

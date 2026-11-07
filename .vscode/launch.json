@@ -1,0 +1,56 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "1. Check installation (smoke test)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/tests/smoke_test.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "2. Download datasets",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/download_datasets.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "3. Train MRI model",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/train_mri.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "3b. Train MRI model - quick trial (300 images per class)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/train_mri.py",
+      "args": ["--max-per-class", "300"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "4. Train speech model",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/train_speech.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "5. Run the web app",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "streamlit",
+      "args": ["run", "app.py"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

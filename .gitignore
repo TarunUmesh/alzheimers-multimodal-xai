@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+models/*.pt
+models/*.joblib
+outputs/*
+!outputs/.gitkeep
+datasets/mri/*
+!datasets/mri/PUT_MRI_CLASS_FOLDERS_HERE.txt

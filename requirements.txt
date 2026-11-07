@@ -1,0 +1,24 @@
+# Core deep learning (CPU build is installed by default on Windows; see README for GPU)
+torch>=2.2
+torchvision>=0.17
+
+# Classical ML / data
+scikit-learn>=1.4
+numpy>=1.26
+pandas>=2.1
+joblib>=1.3
+
+# Images and plots
+pillow>=10.0
+matplotlib>=3.8
+
+# Speech-to-text (runs locally, no API key, no ffmpeg needed)
+faster-whisper>=1.0
+av>=11,<19        # audio decoding for faster-whisper; av 19 is not compatible with faster-whisper 1.2
+
+# Web app
+streamlit>=1.40
+
+# Utilities
+tqdm>=4.66
+kagglehub>=0.3
